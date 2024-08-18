@@ -1,6 +1,6 @@
 import Container from "@/ui/container/Container";
 import { FC, KeyboardEvent, MouseEvent, useEffect, useState } from "react";
-// import { useAccount } from "wagmi";
+import { useAccount } from "wagmi";
 import chatApi from "./queries/chat.http";
 import * as styled from "./style";
 import Textarea from "@/components/textarea/Textarea";
@@ -10,8 +10,8 @@ import ChatBody from "../chat-body/ChatBody";
 
 const Chat: FC = () => {
   const theme = useTheme()
-  // const { address } = useAccount();
-  const address = "test234"
+  const { address } = useAccount();
+  // const address = "test234"
   const [messages, setMessages] = useState<{text: string, isMine: boolean, id: string, isLast?: boolean}[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [messageToSend, setMessageToSend] = useState('')
