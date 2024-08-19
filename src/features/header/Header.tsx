@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Container from "@ui/container/Container";
+import Container from "../../ui/container/Container";
 
 const Header: FC = () => {
   return (

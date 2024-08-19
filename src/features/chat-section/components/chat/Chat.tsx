@@ -1,12 +1,12 @@
-import Container from "@/ui/container/Container";
 import { FC, KeyboardEvent, MouseEvent, useEffect, useState } from "react";
 import { useAccount } from "wagmi";
 import chatApi from "./queries/chat.http";
 import * as styled from "./style";
-import Textarea from "@/components/textarea/Textarea";
-import { SendIcon } from "@/assets/icons/icons";
 import { useTheme } from "styled-components";
 import ChatBody from "../chat-body/ChatBody";
+import Container from "../../../../ui/container/Container";
+import Textarea from "../../../../components/textarea/Textarea";
+import { SendIcon } from "../../../../assets/icons/icons";
 
 const Chat: FC = () => {
   const theme = useTheme()

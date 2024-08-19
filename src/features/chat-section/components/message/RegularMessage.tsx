@@ -1,9 +1,9 @@
 import { FC, useEffect, useState } from "react"
 import * as styled from './style'
-import { NEW_LINE } from "@/utilities/constants"
-import { useDetermineCode } from "@/hooks/useDetermineCode"
-import { getTextBlocksWithCode } from "@/utilities/helpers"
-import {CopyIcon, DoneIcon} from "@/assets/icons/icons"
+import { useDetermineCode } from "../../../../hooks/useDetermineCode"
+import { getTextBlocksWithCode } from "../../../../utilities/helpers"
+import { CopyIcon, DoneIcon } from "../../../../assets/icons/icons"
+import { NEW_LINE } from "../../../../utilities/constants"
 
 type RegularMessageProps = {
     isMine: boolean,

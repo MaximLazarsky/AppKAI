@@ -14,13 +14,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "jsx": "react-jsx",
-    "paths": {
-      "@/*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@ui/*": ["src/ui/*"],
-      "@features/*": ["src/features/*"]
-    }
   },
-  "include": ["vite.config.ts", "src/**/*"]
+  "include": ["vite.config.ts"]
 }

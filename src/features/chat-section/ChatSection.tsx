@@ -1,7 +1,7 @@
-import AnimatedContent from "@/components/animated-content/AnimatedContent";
 import { FC } from "react";
 import ChatTrigger from "./components/chat-trigger/ChatTrigger";
 import Chat from "./components/chat/Chat";
+import AnimatedContent from "../../components/animated-content/AnimatedContent";
 
 const ChatSection: FC = () => {
   return (
