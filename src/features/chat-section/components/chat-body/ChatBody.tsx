@@ -1,8 +1,8 @@
-import { scrollToCb } from "@/utilities/helpers";
 import RegularMessage from "../message/RegularMessage";
 import * as styled from "./style";
 import { useEffect, useRef } from "react";
 import LoadingMessage from "../message/LoadingMessage";
+import { scrollToCb } from "../../../../utilities/helpers";
 
 const ChatBody = ({messages, loading}:{messages: {text: string, isMine: boolean, id: string, isLast?: boolean}[], loading: boolean}) => {
     const messagesWrapper = useRef<HTMLDivElement>(null)

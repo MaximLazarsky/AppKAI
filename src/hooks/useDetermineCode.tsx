@@ -1,5 +1,5 @@
-import { CODE_INDICATOR } from '@/utilities/constants'
 import { useEffect, useState } from 'react'
+import { CODE_INDICATOR } from '../utilities/constants'
 
 export const useDetermineCode = (text: string) => {
     const [checkedText, setCheckedText] = useState('')

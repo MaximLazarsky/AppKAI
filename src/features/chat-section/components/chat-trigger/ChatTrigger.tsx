@@ -1,6 +1,6 @@
-import { TriggerType } from "@/components/animated-content/AnimatedContent";
-import Button from "@/ui/button/Button";
 import { FC } from "react";
+import { TriggerType } from "../../../../components/animated-content/AnimatedContent";
+import Button from "../../../../ui/button/Button";
 
 const ChatTrigger: FC<TriggerType & React.HTMLAttributes<HTMLDivElement>> = ({
   isOpen,

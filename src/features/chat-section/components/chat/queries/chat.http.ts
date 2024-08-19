@@ -1,4 +1,4 @@
-import onDemandAPI from "@/clientAPI";
+import onDemandAPI from "../../../../../clientAPI";
 import * as types from "./types";
 
 const chatApi = {
