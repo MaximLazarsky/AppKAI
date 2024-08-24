@@ -7,7 +7,7 @@ import ChatBody from "../chat-body/ChatBody";
 import Container from "../../../../ui/container/Container";
 import Textarea from "../../../../components/textarea/Textarea";
 import { SendIcon } from "../../../../assets/icons/icons";
-import ChatTemplate from "./chat-template/ChatTemplate";
+import ChatTemplate from "../chat-template/ChatTemplate";
 
 const Chat: FC = () => {
   const theme = useTheme();

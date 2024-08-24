@@ -1,6 +1,6 @@
 import { FC } from "react";
 import * as styles from "./style";
-import { StyledMessagesWrapper } from "../../chat-body/style";
+import { StyledMessagesWrapper } from "../chat-body/style";
 type ChatTemplateProps = { onSendMessage: (message: string) => void };
 const ChatTemplate: FC<ChatTemplateProps> = ({ onSendMessage }) => {
   const suggestedQuestions: string[] = [
