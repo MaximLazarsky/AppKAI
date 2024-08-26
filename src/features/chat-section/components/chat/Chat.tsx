@@ -18,7 +18,6 @@ const Chat: FC = () => {
   const [loading, setLoading] = useState(false)
   const [numberRows, setNumberRows] = useState(1)
 
-
   const getMessages = async (address: string) => {
     let _session = null;
     try {
@@ -80,7 +79,8 @@ const Chat: FC = () => {
       setLoading(false)
     }
   };
-
+  // mobile
+  // right 75px, top 19px, 
   
 
   return (

@@ -8,10 +8,10 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={getAppTheme()}>
       <ResetStyles />
-      <div>
+      <>
         <Header />
         <ChatSection />
-      </div>
+      </>
     </ThemeProvider>
   );
 };

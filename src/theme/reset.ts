@@ -13,7 +13,8 @@ const ResetStyles = createGlobalStyle`
     font-family: 'Gilroy-Regular';
     font-size: 16px;
     color: ${props => props.theme.palette.light.white};
-    background-color: ${props => props.theme.palette.light.black};
+    background-color: inherit;
+    /* ${props => props.theme.palette.light.black}; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -28,10 +29,7 @@ const ResetStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6, span{
     font-weight: 700;
   }
-  span, label{
-    font-size: max(0.875rem, min(1rem + 16vw, 0.875rem));
-  }
-  
+
   a {
     color: ${props => props.theme.palette.light.white};
     cursor: pointer;
