@@ -7,10 +7,15 @@ export const StyledWrapper = styled.div`
         grid-template-rows: 1fr 0fr;
         height: 100%;
         overflow: auto;
-        height: 80vh;
-        width: 80vw;
+        height: 100%;
+        width: 100%;
+        max-width: 1259px;
+        min-height: 805px;
         border: 8px ${theme.palette.light.gray.main} solid;
         border-radius: ${theme.spacing}px;
+        background-color: ${theme.palette.light.black};
+        font-family: 'Helvetica Neue';
+        font-size: 16px;
     `}
 `
 

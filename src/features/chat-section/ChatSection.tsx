@@ -6,7 +6,7 @@ import AnimatedContent from "../../components/animated-content/AnimatedContent";
 const ChatSection: FC = () => {
   return (
     <AnimatedContent
-      trigger={(params) => <ChatTrigger {...params}>Chat with KAI</ChatTrigger>}
+      trigger={(params) => <ChatTrigger {...params}><span>Chat with KAI</span></ChatTrigger>}
       content={<Chat />}
     />
   );

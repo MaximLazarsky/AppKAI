@@ -3,15 +3,14 @@ import { TriggerType } from "../../../../components/animated-content/AnimatedCon
 import Button from "../../../../ui/button/Button";
 
 const ChatTrigger: FC<TriggerType & React.HTMLAttributes<HTMLDivElement>> = ({
-  isOpen,
   disabled,
   children,
   ...props
 }) => {
-  console.log("isOpen", isOpen);
+
   return (
     <Button {...props} disabled={disabled}>
-      {children} arrow
+      {children}
       {/* TODO/feat arrow */}
     </Button>
   );
