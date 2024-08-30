@@ -12,7 +12,7 @@ import ChatTemplate from "../chat-template/ChatTemplate";
 const Chat: FC = () => {
   const theme = useTheme();
   const { address } = useAccount();
-  // const address = "test234"
+
   const [messages, setMessages] = useState<
     { text: string; isMine: boolean; id: string; isLast?: boolean }[]
   >([]);
